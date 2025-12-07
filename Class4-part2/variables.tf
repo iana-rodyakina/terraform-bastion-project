@@ -17,7 +17,6 @@ variable ec2_web {
   type = map(string)
 }
 
-
 variable vpc {
   type = object({
     cidr = string
